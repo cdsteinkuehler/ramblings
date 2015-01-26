@@ -4,6 +4,16 @@ Example of SVG image in `asciidoc`
 below this text the image of a custom debian logo in `.svg` format is
 shown, while the image itself is a `.svg` file.
 
-This does not work in the github wiki pages.
+during the making of this example I thought that this was no problem since it
+rendered perfectly on my asciidoc preview in atom.io. But vieuwing it on github
+failed
+
+I was remembering that this worked. So the github wiki pages, as well as the
+repository files don't render `.svg files. Please see the "broken" image below.
 
 image:debianlogo.svg[]
+
+however, if an image is in a static site (like in a location somewhere in
+my personal site) the image is rendered as it should.
+
+image:http://basdebruijn.com/files/debianlogo.svg[]
