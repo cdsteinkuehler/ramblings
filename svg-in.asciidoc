@@ -1,0 +1,9 @@
+Example of SVG image in `asciidoc`
+==================================
+
+below this text the image of a custom debian logo in `.svg` format is
+shown, while the image itself is a `.svg` file.
+
+This does not work in the github wiki pages.
+
+image:debianlogo.svg[]
